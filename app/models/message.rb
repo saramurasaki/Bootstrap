@@ -1,3 +1,3 @@
-class Task < ApplicationRecord
-  validates :content, presence: true, length: { maximum: 10 }
+class message < ApplicationRecord
+  
 end
