@@ -1,5 +1,5 @@
 <h1>id = <%= @task.id %>タスク詳細ページ</h1>
-
+<form class="form-horizontal">
 <table class="table table-bordered">
   <tr>
     <th>id</th>
@@ -25,3 +25,4 @@
 
 <%= link_to 'このメッセージを編集する', edit_task_path(@task), class: 'btn btn-default' %>
 <%= link_to 'このメッセージを削除する', @task, method: :delete, data: { confirm: '本当に削除してよろしいですか？' }, class: 'btn btn-danger' %>
+</form>
